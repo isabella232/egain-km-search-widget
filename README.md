@@ -47,7 +47,7 @@ For e.g., place the following script tags in the HTML page to load the eGain Jav
 Once the JavaScript reference to the library is complete, the placeholder HTML elements for widget can simply be added to the page. 
 
 For e.g., the following HTML placeholder DIV will render an unordered list of knowledge articles for the corresponding portal with the search term of "test"
-Search Field Widget
+
 
 ```html
 <div id="HTML-element-Id"
