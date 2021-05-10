@@ -1,7 +1,7 @@
 # eGain-KM-Widgets-Search-Widget
 
 # About
-The Search Widget renders an unordered list in an HTML page based on an initialization search string parameter. The list is a result of articles which matches the search parameter. The article results list can also be updated dynamically by calling a JS function with a corresponding search parameter.
+The Search Widget renders an unordered list in an HTML page based on an initialization search string parameter. The list is a result of articles which matches the search parameter. The article results list can also be updated dynamically by calling a javascript function with a corresponding search parameter.
 
 
 ![search-widget](https://user-images.githubusercontent.com/83938216/117610210-f804ec80-b17e-11eb-92d7-ff9aa85213f9.png)
@@ -13,13 +13,13 @@ The Search Widget renders an unordered list in an HTML page based on an initiali
 3. Enable CORS in the eGain application. This is required in order to make the web service APIs work without CORS issues. Follow section "Enabling Cross-Origin Resource Sharing" of the product guide "eGain Administrator’s Guide to Administration Console".
 
 # Using The Search Widget
-Below the sample form that uses search widget to fetch the corresponding articles from eGain knowledge using the short description. Initially search will be done using pre populated short description. Search results will be updated dynamically as we change the short description.
+This sample application uses search widget to fetch the corresponding articles from eGain knowledge using the short description. Initially search will be done using pre populated short description. Search results will be updated dynamically as we change the short description.
 
-1. Clone or download the Sample Page from git hub repository.
-2. Change below attributes as required in the sample html file.
-    your_egain_system_url_with-context_root
-    your_kb_portal_id
-3. Now you should be able to fetch the search results from your eGain knowledge portal by loading the html in browser.
+1. Clone or download the Sample Application from git hub repository.
+1. Change below attributes as required in the index html file.
+    1. your_egain_system_url_with-context_root
+    1. your_kb_portal_id
+1. Now you should be able to fetch the search results from your eGain knowledge portal by loading the index html in browser.
 
 
 # Configurations
@@ -34,7 +34,7 @@ The library must be included in the page(s) that are going to enable eGainUI Wid
 
 Recommendation:
 
-In the header: If the JavaScript library is being used by making a JS function call.
+In the header: If the JavaScript library is being used by making a javascript function call.
 In the footer: If the page/document load event is used to trigger the widget.
 For e.g., place the following script tags in the HTML page to load the eGain JavaScript library.
 
