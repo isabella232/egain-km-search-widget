@@ -15,7 +15,7 @@ The Search Widget renders an unordered list in an HTML page based on an initiali
 # Using The Search Widget
 This sample application uses search widget to fetch the corresponding articles from eGain knowledge using the short description. Initially search will be done using pre populated short description. Search results will be updated dynamically as we change the short description.
 
-1. Clone or download the Sample Application from git hub repository.
+1. Clone or download the Sample Application from git hub repository https://github.com/g-aprajidiot/eGain-KM-Search-Widget.
 1. Change below attributes as required in the index html file.
     1. your_egain_system_url_with-context_root
     1. your_kb_portal_id
