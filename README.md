@@ -1,0 +1,1 @@
+# eGain-KM-Widgets-Search-Widget
