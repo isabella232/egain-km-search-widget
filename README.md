@@ -80,7 +80,6 @@ The API to call it dynamically is as follows:
 |data-egain-link-target | The target window to be used to open the link. |	String	| Should be same as target attribute of the HTML Anchor element. For e.g. _blank or _self etc. |	As default set by browser. |	No
 |data-egain-locale | The locale of the knowledge data.|	String| Format "languagecode-CountryCode". For e.g., "en-US". Should match with the MLKB language. | en-US|	No|
 |data-egain-portal-id | Id of the Portal created through eGain KB console (confirm this with eGain deployment team). | Numeric	| E.g., 201700000001000	| NONE	| Yes|
-|data-egain-template-base | Base template name to decide whether to load templates based on "aqua" or "kiwi" or"sunburst".	| String | aqua , kiwi, sunburst | aqua |	No
 |data-egain-search-param | The term that should be searched in the articles corresponding to the portal Id provided. | String | Eg. Sample | None | Yes
 
 
