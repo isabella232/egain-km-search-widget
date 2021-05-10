@@ -4,7 +4,7 @@
 The Search Widget renders an unordered list in an HTML page based on an initialization search string parameter. The list is a result of articles which matches the search parameter. The article results list can also be updated dynamically by calling a JS function with a corresponding search parameter.
 
 
-![alt text](https://github.com/g-aprajidiot/eGain-KM-Widgets-Search-Widget/blob/main/search-widget.png)
+![search-widget](https://user-images.githubusercontent.com/83938216/117610210-f804ec80-b17e-11eb-92d7-ff9aa85213f9.png)
 
 
 # Prerequisites
