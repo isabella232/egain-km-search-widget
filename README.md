@@ -123,13 +123,13 @@ By default the widget will be loaded with en-US locale and same will be passed t
 # Callback in static widget: 
 The callback handler must be bound at the end of the page (where static widget is embedded) in a script section. Following is the sample code for registering callback and updating the heading in the callback:
 
-### Callback for static widgets
+## Callback for static widgets
 ```
 eGainUI('#HTML-element-Id').on("eGainUI.callback", function () {
     eGainUI('#HTML-element-Id h1').html("Search Widget - Static");
 });
 ```
-### Callback in dynamic widgets: 
+## Callback in dynamic widgets: 
 The callback handler must be registered when triggering the dynamic widget. Following is the sample code for registering callback and updating the heading in the callback:
 ```
 eGainUI('#HTML-element-Id').SearchWidget("account", function () {
