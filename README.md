@@ -1,6 +1,5 @@
 # eGain-KM-Widgets-Search-Widget
 
-# About
 The Search Widget renders an unordered list in an HTML page based on an initialization search string parameter. The list is a result of articles which matches the search parameter from eGain knowledge base. The article results list can also be updated dynamically by calling a javascript function with a corresponding search parameter.
 
 
